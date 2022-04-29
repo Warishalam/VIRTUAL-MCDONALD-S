@@ -1,0 +1,54 @@
+#menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 1px solid; */
+    gap: 40px 0px;
+    padding: 0vh 20vh 0vh 20vh ;
+    
+}
+#menu>div{
+    /* border: 1px solid; */
+    text-align: center;
+    
+}
+#head{
+    text-align: center;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 40px;
+    
+}
+
+#order{
+    padding:1vh 3vh;
+    background-color: rgb(228, 193, 193);
+    border: none;
+    color: brown;
+    font-weight: 550;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    /* justify-content: right; */
+    /* text-align: right; */
+    cursor: pointer;
+    
+    
+}
+
+#cart{
+    position: absolute;
+    display: flex;
+    /* grid-template-columns: repeat(1,1fr); */
+   flex-direction: column;
+    gap: 1vh;
+    background-color: rgb(242, 226, 226);
+    text-align: center;
+    margin: 3vh 30%;
+    width:40%
+
+}
+#close{
+    cursor: pointer;
+   
+    text-align: right;
+    padding: 0.5vh;
+    margin-bottom: 0%;
+    color: red; 
+}
